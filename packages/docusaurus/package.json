@@ -23,6 +23,7 @@
   "bin": {
     "docusaurus": "bin/docusaurus.mjs"
   },
+  "main": "lib",
   "scripts": {
     "build": "tsc --build && node ../../admin/scripts/copyUntypedFiles.js",
     "watch": "run-p -c copy:watch build:watch",
